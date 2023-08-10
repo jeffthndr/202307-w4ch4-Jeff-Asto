@@ -11,7 +11,8 @@
     "test": "jest",
     "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests",
     "test:w": "jest --watchAll --coverage --collectCoverageFrom=src/todo/**/*.{ts,tsx}",
-    "test:fast": "jest --watchAll --coverage"
+    "test:fast": "jest --watchAll --coverage",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,6 +34,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8.0.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.6.2",
     "jest-environment-jsdom": "^29.6.2",
